@@ -1,0 +1,147 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.calculator-container {
+    text-align: center;
+}
+
+.calculator {
+    border: 2px solid #227ad7;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    background-color: white;
+    display: inline-block;
+}
+
+.brand {
+    margin-bottom: 10px;
+}
+
+.brand h1 {
+    font-size: 2em;
+    color: #333;
+    margin: 0;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.display {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #f1f1f1;
+    border: 1px solid #5b5858;
+    border-radius: 5px;
+    text-align: right;
+    color: #333;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px; 
+    
+}
+
+.btn {
+    padding: 20px;
+    font-size: 1.5em;
+    border: none;
+    background-color: #979290;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.btn:hover {
+    background-color: #f0422b;
+}
+
+.btn:active {
+    transform: scale(0.95);
+}
+
+.btn.operator {
+    background-color: #0064cf;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.btn.operator:hover {
+    background-color: #0056b3;
+}
+
+.btn.operator:active {
+    background-color: #003d7a;
+}
+
+#equals {
+    grid-column: span 4;
+    background-color: #6a7077;
+    color: white;
+   
+}
+
+#equals:hover {
+    background-color: #0056b3;
+}
+
+#equals:active {
+    background-color: #003d7a;
+}
+
+/* Existing styles... */
+
+html, body {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* This pushes footer to the bottom */
+}
+
+.calculator-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer.footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border-top: 2px solid #0056b3;
+}
+
+footer.footer p {
+    margin: 0;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.footer-link {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 10px;
+}
+
+.footer-link:hover {
+    text-decoration: underline;
+}
