@@ -65,6 +65,6 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Acknowledgments
 
-- Special thanks to the [CodSoft](https://www.codsoft.com) team for inspiration and support.
+- Special thanks to the [CodSoft](https://www.codsoft.in) for the Web Development Internship Oppurtunity.
 - Thanks to the open-source community for providing valuable tools and resources.
 
